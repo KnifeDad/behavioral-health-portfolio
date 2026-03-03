@@ -1,0 +1,10 @@
+# Render Blueprint — optional. You can also set these in the Render dashboard.
+# https://render.com/docs/blueprint-spec
+
+services:
+  - type: web
+    name: behavioral-health-portfolio
+    runtime: static
+    buildCommand: npm install && npm run build
+    staticPublishPath: dist
+    # Optional: custom domain, headers, etc. can be added in the dashboard.
