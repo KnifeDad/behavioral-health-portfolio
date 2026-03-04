@@ -12,6 +12,7 @@ import Process from "./components/Process";
 import WhyWork from "./components/WhyWork";
 import Contact from "./components/Contact";
 import ParticleBackground from "./components/ParticleBackground";
+import BackToTop from "./components/BackToTop";
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
       <Process />
       <WhyWork />
       <Contact />
+      <BackToTop />
     </div>
   );
 }
