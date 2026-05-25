@@ -1,11 +1,11 @@
 /**
- * WhoServe — "Who I Serve" section (id="about"). Intro copy + bullet list of client types.
+ * WhoServe — "Who I Serve" section. Intro copy + bullet list of client types.
  */
 import React from "react";
 
 const WhoServe = () => {
   return (
-    <section id="about" className="py-20 bg-gradient-to-b from-slate-950 via-slate-900/95 to-slate-950 relative z-10">
+    <section className="py-20 bg-gradient-to-b from-slate-950 via-slate-900/95 to-slate-950 relative z-10">
       <div className="max-w-6xl mx-auto px-6">
         <h2 className="text-3xl font-bold mb-6">Who I Serve</h2>
         <div className="md:flex md:space-x-12">

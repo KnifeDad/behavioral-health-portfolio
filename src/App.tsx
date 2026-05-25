@@ -5,11 +5,13 @@
 import React from "react";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
+import Bio from "./components/Bio";
 import WhoServe from "./components/WhoServe";
 import FeaturedProject from "./components/FeaturedProject";
 import Services from "./components/Services";
 import Process from "./components/Process";
 import WhyWork from "./components/WhyWork";
+import Testimonials from "./components/Testimonials";
 import Contact from "./components/Contact";
 import ParticleBackground from "./components/ParticleBackground";
 import BackToTop from "./components/BackToTop";
@@ -21,11 +23,13 @@ function App() {
       <ParticleBackground />
       <Header />
       <Hero />
+      <Bio />
       <WhoServe />
       <FeaturedProject />
       <Services />
       <Process />
       <WhyWork />
+      <Testimonials />
       <Contact />
       <BackToTop />
     </div>

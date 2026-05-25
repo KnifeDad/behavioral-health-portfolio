@@ -1,6 +1,6 @@
 /**
- * FeaturedProject — Portfolio section (id="portfolio"). Two project cards:
- * 1) FHCL Psychiatry (solo/single-page example), 2) The Bloom Room Therapy (full practice example).
+ * FeaturedProject — Portfolio section (id="portfolio"). Project cards:
+ * WholePath Psychiatry, FHCL Psychiatry (solo/single-page), The Bloom Room Therapy (full practice).
  */
 import React from "react";
 
@@ -8,8 +8,41 @@ const FeaturedProject = () => {
   return (
     <section id="portfolio" className="py-20 bg-gradient-to-bl from-slate-900 via-slate-800/90 to-slate-900 relative z-10">
       <div className="max-w-6xl mx-auto px-6">
-        <h2 className="text-3xl font-bold mb-6">Featured Project</h2>
-        {/* Card 1: FHCL Psychiatry */}
+        <h2 className="text-3xl font-bold mb-6">Featured Projects</h2>
+        {/* Card 1: WholePath Psychiatry */}
+        <div className="md:flex md:space-x-12 items-center bg-slate-800/80 border border-slate-700 rounded-2xl p-8 mb-12">
+          <img
+            src="/WholePathPsychiatry.png"
+            alt="WholePath Psychiatry website screenshot"
+            className="md:w-1/2 rounded-lg shadow-lg mb-6 md:mb-0 object-cover"
+          />
+          <div className="md:w-1/2">
+            <h3 className="text-2xl font-semibold mb-2">WholePath Psychiatry</h3>
+            <p className="mb-4">
+              Full multi-page website for WholePath Psychiatric Services—compassionate
+              psychiatric care for children (6+), adolescents, and adults in Middletown, DE.
+              Includes provider bio, services, specialties, insurance, and consultation scheduling.
+            </p>
+            <ul className="list-disc list-inside space-y-1 mb-4">
+              <li>Multi-page custom website</li>
+              <li>Structured navigation</li>
+              <li>Services, specialties &amp; insurance sections</li>
+              <li>Patient testimonials</li>
+              <li>Consultation request form</li>
+              <li>Mobile optimization and SEO</li>
+            </ul>
+            <a
+              href="https://wholepathpsychiatry.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-6 py-3 rounded text-white shadow bg-gradient-to-r from-teal-500 to-orange-400 hover:opacity-90 transition"
+            >
+              Visit Live Site
+            </a>
+          </div>
+        </div>
+
+        {/* Card 2: FHCL Psychiatry */}
         <div className="md:flex md:space-x-12 items-center bg-slate-800/80 border border-slate-700 rounded-2xl p-8 mb-12">
           <img
             src="/FHCLpsychiatry.png"
@@ -39,8 +72,8 @@ const FeaturedProject = () => {
           </div>
         </div>
 
-        <h2 className="text-3xl font-bold mb-6">Full Practice Website Example</h2>
-        {/* Card 2: The Bloom Room Therapy */}
+        <h2 className="text-3xl font-bold mb-6">Full Practice Website Examples</h2>
+        {/* Card 3: The Bloom Room Therapy */}
         <div className="md:flex md:space-x-12 items-center bg-slate-800/80 border border-slate-700 rounded-2xl p-8">
           <img
             src="/TheBloomRoomTherapy.png"
